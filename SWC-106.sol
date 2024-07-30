@@ -387,11 +387,6 @@ contract WalletLibrary is WalletEvents {
   mapping (bytes32 => Transaction) m_txs;
 }
 
-```
-
-### simple_suicide.sol
-
-```solidity
 pragma solidity ^0.4.22;
 
 contract SimpleSuicide {
@@ -402,11 +397,7 @@ contract SimpleSuicide {
 
 }
 
-```
 
-### suicide_multitx_feasible.sol
-
-```solidity
 pragma solidity ^0.4.23;
 
 contract SuicideMultiTxFeasible {
