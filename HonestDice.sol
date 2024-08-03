@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.4.24;
+
 contract HonestDice {
 	
 	event Bet(address indexed user, uint blocknum, uint256 amount, uint chance);
